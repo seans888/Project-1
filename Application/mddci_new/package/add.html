@@ -1,0 +1,41 @@
+<html>
+<head>
+	<title>Add New Package</title>
+</head>
+
+<body>
+	<a href="index.php">Home</a>
+	<br/><br/>
+
+	<form action="add.php" method="post">
+		<table width="25%" border="0">
+			<tr> 
+				<td>Name</td>
+				<td><input type="text" name="packageType"></td>
+			</tr>
+			<tr> 
+				<td>Category</td>
+				<td><select name="packageCat">
+					<option value="PWD/SC">PWD/SC</option>
+					<option value="Regular">Regular</option>
+					</select>
+				</td>
+			</tr>
+			<tr> 
+				<td>Description</td>
+				<td><textarea name="packageDesc"></textarea></td>
+			</tr>
+			<tr> 
+				<td>Price</td>
+				<td><input type="text" name="packagePri"></td>
+			</tr>
+			
+			<tr> 
+				<td></td>
+				<td><input type="submit" name="Submit" value="Add"></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
+

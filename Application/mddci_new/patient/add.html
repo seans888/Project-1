@@ -1,0 +1,54 @@
+<html>
+<head>
+	<title>Add New Patient Record</title>
+</head>
+
+<body>
+	<a href="index.php">Home</a>
+	<br/><br/>
+
+	<form action="add.php" method="post">
+		<table width="25%" border="0">
+			<tr> 
+				<td>Last Name</td>
+				<td><input type="text" name="lname"></td>
+			</tr>
+			<tr> 
+				<td>First Name</td>
+				<td><input type="text" name="fname"></input></td>
+			</tr>
+			<tr> 
+				<td>Middle Name</td>
+				<td><input type="text" name="mname"></td>
+			</tr>
+			<tr> 
+				<td>Age</td>
+				<td><input type="text" name="age"></td>
+			</tr>
+			<tr> 
+				<td>Contact Info</td>
+				<td><input type="text" name="contact"></td>
+			</tr>
+			<tr> 
+				<td>Address</td>
+				<td><input type="text" name="address"></td>
+			</tr>
+			<tr> 
+				<td>Attending Physician</td>
+				<td>
+				<select name="physicianId">
+				<option value="1">Physician 1</option>
+				<option value="2">Physician 2</option>
+				<option value="3">Physician 3</option>
+				</select>
+				</td>
+			</tr>
+			<tr> 
+				<td></td>
+				<td><input type="submit" name="Submit" value="Add"></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
+
